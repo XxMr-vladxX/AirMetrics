@@ -17,7 +17,7 @@ export default function Medidor(){
                 humedad: medida_humedad
             });
         });
-    }, []);
+    });
 
     return (
         <>

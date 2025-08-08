@@ -35,7 +35,7 @@ export default function CO2_Ultimas_24_hrs(){
                 ]
             });
         });
-    }, []);
+    });
 
     return (<Line data={chartData} options={options}/>);
 };

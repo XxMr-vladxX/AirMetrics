@@ -36,7 +36,7 @@ export default function CO2_Semanal() {
         ]
       });
     });
-  }, []);
+  });
 
   return <Line data={chartData} options={options}/>;
 };
