@@ -21,11 +21,13 @@ export default function Medidor(){
 
     return (
         <>
-            <img src={Medidor_Vacio} style={{marginTop: 20, marginBottom: 50}} height={391} width={241} alt='Medidor'/>
-            <p className='CO2'>{medidas.co2}</p>
-            <p className='PPM'>PPM</p>
-            <p className='Temperatura'>{medidas.temperatura} °C</p>
-            <p className='Humedad'>{medidas.humedad} %</p>
+            <div style={{position: 'relative'}}>
+                <img src={Medidor_Vacio} style={{marginTop: 20, marginBottom: 50}} height={391} width={241} alt='Medidor'/>
+                <p className='CO2'>{medidas.co2}</p>
+                <p className='PPM'>PPM</p>
+                <p className='Temperatura'>{medidas.temperatura} °C</p>
+                <p className='Humedad'>{medidas.humedad} %</p>
+            </div>
         </>
     );
 };
