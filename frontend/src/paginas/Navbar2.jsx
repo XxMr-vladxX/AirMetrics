@@ -46,7 +46,7 @@ function Navegacion2(){
                 </Modal.Header>
                 <Modal.Body style={{fontSize: '20px', padding: '10px'}}>¿Esta seguro que quiere cerrar la sesion?</Modal.Body>
                 <Modal.Footer style={{marginTop: '35px', padding: '10px'}}>
-                    <button className='confirm-button' style={{marginLeft: '80px'}} onClick={confirmLogout}>Cerrar sesion</button>
+                    <button className='confirm-button' style={{marginLeft: '75px'}} onClick={confirmLogout}>Cerrar sesion</button>
                     <button className='cancel-button' style={{marginLeft: '15px'}} onClick={handleClose}>Cancelar</button>
                 </Modal.Footer>
             </Modal>
